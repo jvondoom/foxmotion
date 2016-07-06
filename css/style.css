@@ -1,3 +1,17 @@
+body {
+	font-family: monospace;
+	background-color: #9BDBF5;
+}
+h1, h2, h3 {
+	font-family: monospace;
+	color: #ff0;
+}
+
 video {
 	width: 100%;
+}
+
+.list-group-item{
+	border: 0;
+	background-color: #9BDBF5;
 }
