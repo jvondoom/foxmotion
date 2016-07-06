@@ -3,7 +3,6 @@ links = video_player.getElementsByTagName('a');
 for (var i=0; i<links.length; i++) {
 	links[i].onclick = handler;
 }
-
 function handler(e) {
 	e.preventDefault();
 	videotarget = this.getAttribute("href");
