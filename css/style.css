@@ -15,3 +15,13 @@ video {
 	border: 0;
 	background-color: #9BDBF5;
 }
+
+.panel-default>.panel-heading {
+	background-color: #70C7E8;
+	color: #ff0;
+	border: 0;
+}
+
+.panel-body {
+	background-color: #CDEFFC;
+}

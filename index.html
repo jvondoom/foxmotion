@@ -10,7 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<div class="container-fluid">
+		<div class="container">
 			<h1 class="text-center">[f o x m o t i o n]</h1>
 			<div class="row">
 				<figure id="video_player">
@@ -21,17 +21,129 @@
 					</div>
 					<div class="col-md-4">
 						<h2>[today's guide]</h2>
-						<ul class="list-group">
-							<li class="list-group-item"><h3>Duckman</h3></li>
-							<li class="list-group-item"><h3>The Maxx</h3></li>
-							<li class="list-group-item"><h3>Aeon Flux</h3></li>
-							<li class="list-group-item"><h3>The Critic</h3></li>
-							<li class="list-group-item"><h3>Cowboy Beebop</h3></li>
-						</ul>
+						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="heading-a">
+									<h3 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-a" aria-expanded="false" aria-controls="collapse-a">
+									Duckman
+									</a>
+									</h3>
+								</div>
+								<div id="collapse-a" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-a">
+									<div class="panel-body">
+										<table class="table">
+											<thead>
+												<tr>
+													<td><strong>Created by</strong></td>
+													<td>Everett Peck</td>
+												</tr>
+												<tr>
+													<td><strong>Origin</strong></td>
+													<td>USA</td>
+												</tr>
+												<tr>
+													<td><strong># Seasons</strong></td>
+													<td>4</td>
+												</tr>
+											</thead>
+										</table>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="heading-b">
+									<h3 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-b" aria-expanded="false" aria-controls="collapse-b">
+									The Maxx
+									</a>
+									</h3>
+								</div>
+								<div id="collapse-b" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-b">
+									<div class="panel-body">
+										<table class="table">
+											<thead>
+												<tr>
+													<td><strong>Created by</strong></td>
+													<td>Sam Kieth <br> Bill Messner-Loebs</td>
+												</tr>
+												<tr>
+													<td><strong>Origin</strong></td>
+													<td>USA</td>
+												</tr>
+												<tr>
+													<td><strong># Seasons</strong></td>
+													<td>1</td>
+												</tr>
+											</thead>
+										</table>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="heading-c">
+									<h3 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-c" aria-expanded="false" aria-controls="collapse-c">
+									Aeon Flux
+									</a>
+									</h3>
+								</div>
+								<div id="collapse-c" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-c">
+									<div class="panel-body">
+										<table class="table">
+											<thead>
+												<tr>
+													<td><strong>Created by</strong></td>
+													<td>Peter Chung</td>
+												</tr>
+												<tr>
+													<td><strong>Origin</strong></td>
+													<td>USA</td>
+												</tr>
+												<tr>
+													<td><strong># Seasons</strong></td>
+													<td>3</td>
+												</tr>
+											</thead>
+										</table>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="heading-d">
+									<h3 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-d" aria-expanded="false" aria-controls="collapse-d">
+									Serial Experiments Lain
+									</a>
+									</h3>
+								</div>
+								<div id="collapse-d" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-d">
+									<div class="panel-body">
+										<table class="table">
+											<thead>
+												<tr>
+													<td><strong>Created by</strong></td>
+													<td>Triangle Staff <br> Pioneer LDC</td>
+												</tr>
+												<tr>
+													<td><strong>Origin</strong></td>
+													<td>Japan</td>
+												</tr>
+												<tr>
+													<td><strong># Seasons</strong></td>
+													<td>1</td>
+												</tr>
+											</thead>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</figure>
 			</div>
 		</div>
 	</body>
 	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </html>
