@@ -2,12 +2,22 @@ body {
 	font-family: monospace;
 	background-color: #9BDBF5;
 }
-h1, h2, h3 {
+
+.jumbotron {
+	background-color: #9BDBF5;
+}
+
+.jumbotron h1 {
 	font-family: monospace;
 	color: #ff0;
 }
 
-video {
+h2, h3 {
+	font-family: monospace;
+	color: #ff0;
+}
+
+iframe {
 	width: 100%;
 }
 
